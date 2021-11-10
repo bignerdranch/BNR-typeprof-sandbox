@@ -13,4 +13,9 @@ class Meetup
   end
 end
 
-
+if $PROGRAM_NAME == __FILE__
+  meetup = Meetup.new
+  meetup.add_member('Josh')
+  first_member = meetup.first_member
+  puts first_member
+end
