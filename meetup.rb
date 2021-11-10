@@ -5,6 +5,7 @@ class Meetup
 
   def add_member(member)
     @members.push(member)
+    nil
   end
 
   def first_member
