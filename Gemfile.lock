@@ -1,15 +1,21 @@
+GIT
+  remote: https://github.com/ruby/typeprof
+  revision: 7ef7a3c68a7effa7b2b81f03ee7f625e2692ffbe
+  specs:
+    typeprof (0.20.2)
+      rbs (>= 1.6.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
     rbs (1.6.2)
-    typeprof (0.20.2)
-      rbs (>= 1.6.2)
 
 PLATFORMS
+  arm64-darwin-20
   x86_64-darwin-21
 
 DEPENDENCIES
-  typeprof
+  typeprof!
 
 BUNDLED WITH
    2.3.0.dev
