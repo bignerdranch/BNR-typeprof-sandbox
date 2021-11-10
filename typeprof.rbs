@@ -1,5 +1,5 @@
 class Meetup[M]
   def add_member: (M member) -> NilClass
-  def first_member: -> (NilClass | M)
+  def first_member: -> M?
 end
 
